@@ -5,6 +5,11 @@ VisualStudioVersion = 15.0.27703.2018
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LimbajulCS", "LimbajulCS\LimbajulCS.csproj", "{19AE0A11-3017-4C55-9318-02D595ADEA9D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{42A095A0-5E5F-4B9D-8B04-7647B5CE18FF}"
+	ProjectSection(SolutionItems) = preProject
+		..\Elemente C#\Clasa_console\Clasa_console\ClasaConsole.cs = ..\Elemente C#\Clasa_console\Clasa_console\ClasaConsole.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

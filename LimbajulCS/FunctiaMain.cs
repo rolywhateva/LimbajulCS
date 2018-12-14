@@ -1,9 +1,10 @@
-﻿using System;
+﻿//directiva 
+using System;
 
 
 namespace LimbajulCS
 {
-    class Program
+    class FunctiaMain
     {
         //Functia main- versiuni
         /*
@@ -14,6 +15,7 @@ namespace LimbajulCS
          * */
         static void Main(string[] args)
         {
+            //clasa Console
             Console.ReadKey(); // Citeste un caracter pe care nu-l afiseaza
                                //util  pentru a face programul sa nu iasa asa dintr-o data
             #region regiune
