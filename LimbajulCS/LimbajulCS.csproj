@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>LimbajulCS.NumereMari</StartupObject>
+    <StartupObject>LimbajulCS.ValoareSiReferinta</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,10 +46,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArrayListuri.cs" />
     <Compile Include="ClasaConsole.cs" />
     <Compile Include="ClasaEnviroment.cs" />
+    <Compile Include="FIFOLIFO.cs" />
     <Compile Include="FunctiaMain.cs" />
     <Compile Include="Citire.cs" />
+    <Compile Include="Hashtableuri.cs" />
     <Compile Include="NumereMari.cs" />
     <Compile Include="Operatori.cs" />
     <Compile Include="ClasaMath.cs" />
@@ -61,8 +64,10 @@
     <Compile Include="Stringbuilders.cs" />
     <Compile Include="Stringuri.cs" />
     <Compile Include="Tablouri.cs" />
+    <Compile Include="TipulEnum.cs" />
     <Compile Include="TipuriDeDate.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ValoareSiReferinta.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
