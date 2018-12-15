@@ -32,11 +32,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Citire.Program</StartupObject>
+    <StartupObject>LimbajulCS.NumereMari</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,9 +47,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ClasaConsole.cs" />
+    <Compile Include="ClasaEnviroment.cs" />
     <Compile Include="FunctiaMain.cs" />
     <Compile Include="Citire.cs" />
+    <Compile Include="NumereMari.cs" />
     <Compile Include="Operatori.cs" />
+    <Compile Include="ClasaMath.cs" />
+    <Compile Include="Functii.cs" />
+    <Compile Include="ClasaRandom.cs" />
+    <Compile Include="Fisiere.cs" />
+    <Compile Include="DataSiTimp.cs" />
+    <Compile Include="Structuri.cs" />
+    <Compile Include="Stringbuilders.cs" />
+    <Compile Include="Stringuri.cs" />
     <Compile Include="Tablouri.cs" />
     <Compile Include="TipuriDeDate.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
